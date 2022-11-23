@@ -3,8 +3,6 @@ body{
     content:"";
     background: url(/images/wallbreak.png) center no-repeat,url(/images/hulk1.png) left no-repeat,url(/images/hulk2.png) right no-repeat,url("/images/green-brick.jpg") repeat;
     background-size: 15rem,20rem , 25rem , auto;
-    /* background-repeat: no-repeat, repeat; */
-    /* opacity: 0.5; */
     background-color: #bef264;
     text-align: center;
 }
