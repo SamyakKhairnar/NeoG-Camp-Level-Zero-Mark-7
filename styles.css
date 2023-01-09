@@ -31,7 +31,7 @@ textarea{
     font-weight: bold;
 }
 
-#btn-translate{
+.btn{
     display: block;
     text-align: center;
     margin: auto;
@@ -45,10 +45,10 @@ textarea{
     border-radius: 1rem;
     box-shadow: 0 9px #999;
 }
-#btn-translate:hover{
+.btn:hover{
     background-color: #bef264;
 }
-#btn-translate:active{
+.btn:active{
     background-color: #a3e635;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
@@ -82,6 +82,7 @@ h3{
 
 .footer .link {
     color: white;
+    text-decoration: none;
 }
 
 .footer-header {
@@ -100,4 +101,51 @@ h3{
 }
 .link .fa-brands:hover {
     color: #ffffff;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        width: 90%;
+        height: 90%;
+        background-size: 6rem , 8rem , 10rem, 20rem;
+    }
+    .header{
+        font-size: xx-large;
+    }
+    .btn{
+        font-size: large;
+        width: auto;
+    }
+    .caption{
+        font-size: larger;
+        width: auto;
+    }
+    .footer-header{
+        font-size: smaller;   
+    }
+    .link .fa-brands{
+        font-size: large;
+    }
+    .inputText, .outputText{
+        height: 6rem;
+        width: 90%;
+    }
+    .inputText{
+        margin-bottom: 4rem;
+    }
+    .outputText{
+        margin-top: 3rem;
+    }
+    .footer{
+        margin: auto;
+        padding: auto;
+        position: fixed;
+        bottom: 0;
+        width: 90%;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    .footer-header{
+        padding: none;
+    }
 }
